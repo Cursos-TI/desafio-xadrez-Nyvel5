@@ -1,34 +1,17 @@
 #include <stdio.h>
 
 int main() {
-     
-    //Torre
 
-    printf ("Movimentação da torre:\n");
+    printf ("Movimento do cavalo:\n");
+int j = 1;
+  for ( int i = 0 ; i <= 0 ; i++){
+     while ( j <= 2) {
+        printf ("Baixo\n");
 
-    for ( int i = 1 ; i <= 5 ; i++ ) {
-        
-        printf ("Direita\n");
-    }
-
-    printf ("Movimentação do bispo:\n");
-
-    int b = 1;
-    while ( b <= 5 ) {
-        
-        printf ("Cima, direita\n");
-
-        b++;
-    }
-
-    printf ("Movimentação da rainha:\n");
-
-    int r = 1;
-    do {
-       printf ("Esquerda\n");
-       
-       r++;
-    } while (r <=  8);
-
+        j++;
+     }
+     printf ("Esquerda\n");
+  }
+    
     return 0;
 }
